@@ -25,9 +25,6 @@ spec:
       - name: nginx-config
         configMap:
           name: nginx-config
-      - name: nginx-certs
-        secret:
-          secretName: nginx-certs
 
 ---
 apiVersion: v1
